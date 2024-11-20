@@ -55,10 +55,10 @@ body {
 }
 
 .swiper {
-  width: 90%;
+  width: 70%;
   max-width: 700px;
-  height: 390px;
-  margin: 20px auto; 
+  height: 300px;
+  margin: 30px auto; 
   z-index: 0;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -90,9 +90,7 @@ body {
   font-size: 1rem;
   text-align: center;
   width: 80%;
-  margin: 10px auto; 
-  padding: 30px 40px;
-  border: 1px solid black;
+  margin: 7px auto; 
   border-radius: 8px;
 }
 

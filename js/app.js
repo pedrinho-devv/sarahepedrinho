@@ -62,7 +62,88 @@ const quotes = [
         "Se eu não te amasse tanto assim, talvez não visse flores onde eu vi.",
       author: "Herbert Vianna",
     },
+    {
+      quote:
+        "Amei-te sem saber, sem querer, mas amei-te. E isso me basta.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote: "E depois de tanto te amar, me perdi em ti como em um mar sem fim.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote:
+        "Eu te amo de um modo tão particular que, mesmo quando estou sozinho, te encontro em mim.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote:
+        "Amar é não ter mais domínio sobre os sentimentos e os sonhos que nos invadem.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote: "Tu és a minha vida, o meu pão e o meu céu.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote:
+        "Que o amor seja a dor mais doce e a alegria mais pungente de nossas vidas.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote: "Eu sou teu, mesmo que o mundo se acabe, eu sou teu.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote: "Se tu me amasses com a mesma intensidade que eu te amo, seríamos eternos.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote: "Eu te amo como se ama o mar: sem explicação, sem razão, sem fim.",
+      author: "Pablo Neruda",
+    },
+    {
+      quote:
+        "As palavras mais belas são aquelas que se guardam, aquelas que só o coração entende.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote:
+        "Sou de ninguém, sou de todos, sou de mim mesma, e tu, apenas, sou teu para sempre.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote:
+        "E é por ti, amor, que o meu coração pulsa, que o meu corpo se aquece, que a minha alma se encontra.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote: "Eu não sei amar pela metade. Eu amo com intensidade.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote: "Os teus olhos são a luz do meu caminho, e o meu único destino é a tua mão.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote:
+        "Nada mais doce que o beijo do ser amado. Nada mais amargo que a saudade do amor perdido.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote: "Eu sou do tipo que ama com a alma, não com o corpo.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote: "Dize-me que me amas, e eu serei feliz até o fim dos meus dias.",
+      author: "Florbela Espanca",
+    },
+    {
+      quote: "Amor é como a chuva: vem, não avisa, e transforma tudo.",
+      author: "Florbela Espanca",
+    },
   ];
+  
   
   const quoteBnt = document.getElementById("quoteBnt");
   const quoteText = document.querySelector(".text");
