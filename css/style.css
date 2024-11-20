@@ -131,15 +131,3 @@ body {
     height: 100%;
   }
 }
-
-@media (min-width: 1024px) {
-  .swiper {
-    width: 80%;
-    max-width: 1200px;
-    height: 500px;
-  }
-
-  .swiper img {
-    height: 100%;
-  }
-}
