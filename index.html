@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>SarahEPedrinho</title>
-</head>
-<body>
-   <section class="container">
-    <h1 class="text-main">Bobos <br> Sem Palavras</h1>
-    <span class="sec-text">&</span>
-    <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="img/love1.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/Imagem do WhatsApp de 2024-11-16 à(s) 16.37.34_2bbcf8b8.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/Imagem do WhatsApp de 2024-11-16 à(s) 16.42.26_607b5aaa.jpg" alt=""></div>
-      ...
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="text-main">
+        Bobos <br />
+        Sem Palavras
+      </h1>
+      <span class="sec-text">&</span>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/love1.jpg" alt="" /></div>
+          <div class="swiper-slide">
+            <img
+              src="img/Imagem do WhatsApp de 2024-11-16 à(s) 16.37.34_2bbcf8b8.jpg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Imagem do WhatsApp de 2024-11-16 à(s) 16.42.26_607b5aaa.jpg"
+              alt=""
+            />
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <br>
+    <!-- gerador de frases -->
+    <div class="quote">
+      <p class="text">Gere uma frase...</p>
+      <p class="author"></p>
+      <button class="bnt" id="quoteBnt">Gerar Citação...</button>
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-  <!-- gerador de frases -->
-  <div class="quote">
-    <p class="text">Gere uma frase...</p>
-    <p class="author"></p>
-    <button class="bnt" id="quoteBnt">Gerar Citação...</button>
-</div>
+    <br>
+    <!-- sessão de timeline -->
+    <section id="nossa-historia">
+      <h2>Nossa História</h2>
+      <div class="timeline">
+        <!-- Marcadores interativos -->
+        <div class="timeline-marker" data-index="0">
+          📍 <span>2019</span>
+        </div>
+        <div class="timeline-marker" data-index="1">
+          💌 <span>2020</span>
+        </div>
+        <div class="timeline-marker" data-index="2">
+          ❤️ <span>2023</span>
+        </div>
+      </div>
+      
+      <!-- Conteúdo dinâmico -->
+      <div id="timeline-content">
+        <h3>📍 2019 - O início de tudo</h3>
+        <p>Foi nesse dia que nossos olhares se cruzaram pela primeira vez.</p>
+        <img src="" alt="Primeiro encontro">
+      </div>
+    </section>
 
-
-   </section>
-
-
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="js/app.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

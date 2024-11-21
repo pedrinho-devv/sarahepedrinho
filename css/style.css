@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: radial-gradient(#dbcccc 2px, transparent 2px);
   background-size: 27px 27px;
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; 
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -65,6 +65,7 @@ body {
   overflow: hidden;
 }
 
+
 .swiper-wrapper {
   display: flex;
 }
@@ -77,7 +78,7 @@ body {
 .swiper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Faz a imagem preencher o espaço */
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -86,6 +87,7 @@ body {
 
 /* Gerador de frases */
 .quote {
+  margin-top: 90px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1rem;
   text-align: center;
@@ -131,3 +133,103 @@ body {
     height: 100%;
   }
 }
+
+/* timeline styles */
+#nossa-historia {
+  margin-top: 50px;
+  padding: 50px 20px;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+#nossa-historia h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Linha do tempo horizontal */
+.timeline {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/* Marcadores interativos */
+.timeline-marker {
+  position: relative;
+  border: 3px solid #333;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.timeline-marker span {
+  position: absolute;
+  top: 60px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.timeline-marker:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Conteúdo Dinâmico */
+#timeline-content {
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: none; /* Inicialmente escondido */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#timeline-content h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#timeline-content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+#timeline-content img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
