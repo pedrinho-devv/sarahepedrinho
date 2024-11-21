@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="O site de Sarah e Pedrinho, onde celebramos nosso amor com imagens, citações e nossa história." />
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -11,11 +12,14 @@
     <title>SarahEPedrinho</title>
   </head>
   <body>
-    <h1 class="text-main">
-      Bobos <br />
-      Sem Palavras
-    </h1>
-    <span class="sec-text">&</span>
+    <header>
+      <h1 class="text-main">
+        Bobos <br />
+        Sem Palavras
+      </h1>
+      <span class="sec-text">&</span>
+    </header>
+
     <section class="container">
       <!-- Slider main container -->
       <div class="swiper">
@@ -23,45 +27,46 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <img src="img/amor1.jpg" alt="" />
+            <img src="img/amor1.jpg" alt="Imagem representando o amor" loading="lazy" />
           </div>
           <div class="swiper-slide">
-            <img src="img/amor2.jpg" alt="" />
+            <img src="img/amor2.jpg" alt="Imagem de carinho entre casal" loading="lazy" />
           </div>
           <div class="swiper-slide">
-            <img src="img/amor3.jpg" alt="" />
+            <img src="img/amor3.jpg" alt="Imagem de um beijo apaixonado" loading="lazy" />
           </div>
           <div class="swiper-slide">
-            <img src="img/amor4.jpg" alt="" />
+            <img src="img/amor4.jpg" alt="Imagem de mãos entrelaçadas" loading="lazy" />
           </div>
           <div class="swiper-slide">
-            <img src="img/amor5.jpg" alt="" />
+            <img src="img/amor5.jpg" alt="Imagem de um abraço acolhedor" loading="lazy" />
           </div>
           <div class="swiper-slide">
-            <img src="img/amor6.jpg" alt="" />
+            <img src="img/amor6.jpg" alt="Imagem de uma noite romântica" loading="lazy" />
           </div>
-          ...
         </div>
-        <!-- If we need pagination -->
+        <!-- Pagination -->
         <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
+        <!-- Navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
+        <!-- Scrollbar -->
         <div class="swiper-scrollbar"></div>
       </div>
     </section>
+
     <br />
-    <!-- gerador de frases -->
+
+    <!-- Gerador de frases -->
     <div class="quote">
       <p class="text">Gere uma citação...</p>
       <p class="author"></p>
       <button class="bnt" id="quoteBnt">Gerar Citação...</button>
     </div>
+
     <br />
-    <!-- sessão de timeline -->
+
+    <!-- Seção de timeline -->
     <section id="nossa-historia">
       <h2>Nossa História</h2>
       <div class="timeline">
@@ -79,7 +84,7 @@
       <div id="timeline-content">
         <h3>📍 2019 - O início de tudo</h3>
         <p>Foi nesse dia que nossos olhares se cruzaram pela primeira vez.</p>
-        <img src="img/firstimg.jpg" alt="Primeiro encontro" />
+        <img src="img/firstimg.jpg" alt="Primeiro encontro" loading="lazy" />
       </div>
     </section>
 
