@@ -9,7 +9,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-image: radial-gradient(#dbcccc 2px, transparent 2px);
   background-size: 27px 27px;
   background-color: #ffffff;
@@ -31,9 +31,10 @@ body {
 }
 
 .text-main {
-  position: absolute;
+  position: relative;
   top: 30px;
-  left: 50%;
+  left: 25%;
+  margin-bottom: 70px;
   line-height: 30px;
   transform: translateX(-50%);
   font-size: 30px;
