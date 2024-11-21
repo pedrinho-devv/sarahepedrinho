@@ -47,7 +47,7 @@ body {
 .sec-text {
   position: absolute;
   top: 1px;
-  left: 50%;
+  left: 51%;
   transform: translateX(-50%);
   font-size: 6rem;
   opacity: 0.3;
