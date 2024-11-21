@@ -70,10 +70,6 @@ body {
   display: flex;
 }
 
-.swiper-slide {
-  flex-shrink: 0;
-  width: 100%;
-}
 
 .swiper img {
   width: 100%;
@@ -83,7 +79,21 @@ body {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #eee;
+  color: #eee;  /* Cor das setas */
+  position: absolute;
+  top: 50%;  /* Centraliza as setas verticalmente */
+  transform: translateY(-50%);
+  font-size: 2rem;  /* Tamanho das setas */
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px; /* Distância da borda esquerda */
+}
+
+.swiper-button-next {
+  right: 10px; /* Distância da borda direita */
 }
 
 /* Gerador de frases */
@@ -218,6 +228,7 @@ body {
 #timeline-content p {
   font-size: 1rem;
   color: #555;
+  margin-top: 10px;
 }
 
 #timeline-content img {
@@ -238,3 +249,4 @@ body {
     transform: translateY(0);
   }
 }
+

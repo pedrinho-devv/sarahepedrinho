@@ -162,19 +162,19 @@ const quotes = [
   // Dados da linha do tempo
 const timelineData = [
   {
-    title: "📍 2019 - O início de tudo",
+    title: "📍 26/05/24 - O início de tudo",
     text: "A primeira mensagem que mandei para ela.",
-    img: "IMG-20241120-WA0022.jpg",
+    img: "/img/primeiratalk.jpg",
   },
   {
-    title: "💌 2020 - O pedido de namoro",
+    title: "💌 17/07/24 - O dia da declaração.",
     text: "O momento que mudou nossas vidas para sempre.",
-    img: "foto2.jpg",
+    img: "/img/diadeclarar.png",
   },
   {
-    title: "❤️ 2023 - Nossa primeira foto",
+    title: "❤️ 17/07/24 - Nossa primeira foto",
     text: "Um marco em nossas vidas. Uma foto de dois apaixonados",
-    img: "foto3.jpg",
+    img: "/img/firstimg.jpg",
   },
 ];
 
@@ -200,3 +200,5 @@ markers.forEach((marker) => {
     content.style.display = "block";
   });
 });
+
+
